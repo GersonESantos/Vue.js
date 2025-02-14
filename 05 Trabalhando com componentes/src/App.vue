@@ -1,12 +1,13 @@
+<!-- script -->
 <script setup>
-// Variáveis
-const nome = 'Fulano';
-const idade = 30;
+// importando o componente
+import Exemplo01 from './componentes/Exemplo01Interpolacao.vue';
+
 </script>
+
 
 <!-- html -->
 
 <template>
-  <h1>{{ 'Olá ' + nome + ' voce tem ' + idade + ' anos '}}</h1>
-  <p>{{ idade }}</p>
+  <Exemplo01 />
 </template>
