@@ -1,18 +1,14 @@
+<!-- script -->
 <script setup>
-// Variáveis
-const nome = 'Fulano';
-const idade = 30;
-let numero1 = 10;
-let numero2 = 5;
+// importando o componente
+import Exemplo01 from './componentes/Exemplo01Interpolacao.vue';
+// import Exemplo02 from './componentes/Exemplo02Interpolacao.vue';
+
 </script>
+
 
 <!-- html -->
 
 <template>
-  <h1>{{ 'Olá ' + nome + ' voce tem ' + idade + ' anos. '}}</h1>
-  <p>{{ idade }}</p>
-  <p>{{ numero1 + numero2 }}</p>
-  <p>{{ numero1 - numero2 }}</p>
-  <p>{{ numero1 * numero2 }}</p>
-  <p>{{ numero1 / numero2 }}</p>
+  <Exemplo01></Exemplo01>
 </template>
