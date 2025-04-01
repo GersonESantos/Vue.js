@@ -1,8 +1,9 @@
 <!-- script -->
 <script setup>
 // importando o componente
-import Exemplo01 from './componentes/Exemplo01Interpolacao.vue';
-import Exemplo02 from './componentes/Exemplo02Interpolacao.vue';
+// import Exemplo01 from './componentes/Exemplo01Interpolacao.vue';
+// import Exemplo02 from './componentes/Exemplo02Interpolacao.vue';
+import Exemplo03 from './componentes/Exemplo03Interpolacao.vue';
 
 </script>
 
@@ -10,5 +11,5 @@ import Exemplo02 from './componentes/Exemplo02Interpolacao.vue';
 <!-- html -->
 
 <template>
-  <Exemplo02></Exemplo02>
+  <Exemplo03></Exemplo03>
 </template>
