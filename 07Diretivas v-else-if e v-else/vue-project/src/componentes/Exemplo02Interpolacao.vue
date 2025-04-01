@@ -1,6 +1,7 @@
 <script setup>
 // Variáveis
 let exibir = true;
+let media = 7;
 
 </script>
 
@@ -8,6 +9,8 @@ let exibir = true;
 
 <template>
     <h1 v-if="exibir">Este é um texto que será exibido</h1>
-    <!-- <h1 v-else>Este é um texto que será escondido</h1>
-    <button @click="exibir = !exibir">Alternar</button> -->
+    <p v-if="media >=7">Aprovado</p>
+    <p v-else-if="media >= 5">Em Exame</p>
+    <p v-else="">Reprovado</p>
+    
 </template>
